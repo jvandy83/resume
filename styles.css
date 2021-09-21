@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: 'Roboto Slab', serif;
+}
+
+.main-header {
+  background: #555;
+  color: #ccc;
+  /* padding: 2rem; */
+}
+.header-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-header-title {
+  font-size: 2.5rem;
+  margin: 0;
+}
+.main-header-description {
+  margin-top: 0;
+}
+.section-title {
+  margin: 0.8rem 0;
+}
+.content {
+  width: 70%;
+  padding: 0.5rem 0;
+}
+.contact {
+  display: flex;
+  justify-content: center;
+}
+.main-header-contact__info {
+  margin-top: 0;
+}
+.email-link {
+  text-decoration: none;
+  color: hotpink;
+}
+.main-header__phone {
+  color: rgb(21, 141, 21);
+}
+.main {
+  background: lightgray;
+  /* height: 100vh; */
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  padding: 2rem;
+}
+.first-list-title {
+}
+.summary {
+}
+.summary-text {
+}
+.work-history {
+}
+.work-history-text {
+}
+.skills-section {
+  margin-top: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+}
+.skills-section span {
+  flex-direction: space-around;
+  padding: 0.1rem;
+}
+.skills-section span::after {
+  content: '  |  ';
+}
+.skills-section__item {
+  font-weight: 600;
+}
+.skill {
+  color: rgb(9, 61, 73);
+}
+.contact-description {
+  font-weight: 600;
+}
+.contact-link {
+  text-decoration: none;
+  color: rgb(170, 60, 60);
+}
+.contact-info {
+}
+.footer {
+}
+.footer-text {
+}
